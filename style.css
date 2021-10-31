@@ -1,0 +1,166 @@
+body{
+ margin: 0%;
+}
+#Startup{
+    background: url("../lesson1/images/image_2021-10-30_21-40-03.png");
+    width: 100%;
+    height: 880px;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    display: flex;
+    word-spacing: 40px;
+    justify-content: space-between;
+}
+#containertext{
+    margin-left: 230px;
+    margin-top: 40px;
+    color:white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    margin-top:48px;
+    margin-right: 230px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+#mainheader{
+color: white;
+margin-top: 180px;
+margin-bottom:0;
+font-family: 'Calibri';
+font-size: 48px;
+display: block;
+font-weight: 100;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+#middletext{
+color: white;
+font-family: 'Calibri', sans-serif;
+font-size: 20px;
+opacity: 0.8;
+}
+.button{
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 33px;
+    padding-bottom: 15px;
+    padding-right: 33px;
+    margin-top: 40px;
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    max-width: 180px;
+    transition: background-color .1s linear, color .1s linear;
+    font-weight: 200;
+    font-size: medium;
+}
+.button:hover {
+    background-color: white;
+	color: #6f1e14;
+}
+#Services{
+    background-color: white;
+    height: 470px;
+}
+#Servicestext{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 100px;
+    color: grey;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
+hr{
+    color: grey;
+    background-color: grey;
+    height: 2px;
+    width: 50px;
+}
+#Servicestext2{
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}
+#rectangle{
+    width: 100%;
+    height: 217px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.AAA{
+    margin-top: 50px;
+    width: 345px;
+    height: 217px;
+}
+.img{
+    background: url(../lesson1/Screenshot_1.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+}
+#ct{
+    color: grey;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+#ct2{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+.img1{
+    background: url(../lesson1/Screenshot_2.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+}
+.img2{
+    background: url(../lesson1/Screenshot_3.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+}
+#Footer{
+    width: 100%;
+    height: 235px;
+    background-color: #bf2f1b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#Images{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#FtText{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+.img3{
+    background: url(../lesson1/Screenshot_4.png);
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
